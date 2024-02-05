@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 2rem 3%;
+    background-color: beige;
+    width: 100%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50rem;
+}
+.landing-page{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 71.2rem;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 12rem;
+    
+}
+
+.navs a{
+    text-decoration: none;
+    color: rgb(58, 56, 77);
+}
+.logo{
+    width: 5rem;
+    
+}
+.showcase{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 1rem; 
+}
+.showcase .box1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: rgb(26, 26, 47);
+    padding: 1rem;
+    width: 20rem;
+}
+.image img{
+    width: 50rem;
+}
+
+
+.box1 h2{
+    color: yellow;
+}
+.box1 h3 {
+    color: white;
+}
+.box1 p{
+    color:rgb(160, 159, 180);
+}
+.item2{
+    border-top: 1px solid rgb(160, 159, 180);
+    padding-top: 3rem;
+}
+.item3{
+    border-top: 1px solid rgb(160, 159, 180);
+    padding-top: 3rem;
+}
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6.5rem;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: -4rem;
+    gap: 2rem;
+    }
+.h2{
+    font-family: sans-serif;
+    font-size: 2rem;
+    line-height: 3rem;
+    word-spacing: 1px;
+    }
+button{
+    background-color: orangered;
+    width: 9rem;
+    height: 3rem;
+}
+.button{
+    width: 9rem;
+}
+.button a{
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+.p{
+    margin-top: 1rem;
+}
+.p p{
+    line-height: 1.5rem;
+    word-spacing: 1.8px;
+    color: rgb(58, 56, 77);
+
+}
+.three{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+.three .img1 img{
+    width: 5rem;
+    height: 6rem;
+}
+.alpha{
+    display: flex;
+    gap: 1rem;
+}
+span{
+    font-size: 2rem;
+    color: grey;
+    font-weight: 700;
+    line-height: 1.7rem;
+}
